@@ -32,7 +32,9 @@
       <section id="home">
         <div class="content">
           <div class="myNameIs">
-            <span>Hi! My <br />name is <strong>Irene</strong></span>
+            <span
+              >Hi! My <br />name is <strong class="name">Irene</strong></span
+            >
           </div>
           <div class="iDoThis">I'm a front-end developer & QA engineer</div>
         </div>
@@ -90,26 +92,52 @@
             <p>
               I also have extensive experience in teaching, where I have created
               and delivered engaging content to students for years, more
-              recently at Instituto RTVE.
+              recently at
+              <a href="https://www.rtve.es/instituto/" target="_blank"
+                >Instituto RTVE</a
+              >.
             </p>
           </div>
           <div>
             <img src="/public/other-theatre.png" alt="Theatre" />
             <h3>Theatre</h3>
             <p>
-              Since 2014, I've been involved with Acorde Al Guión, directing
-              scenes, coordinating actors, translating, and working as a stage
-              technician and lighting crew for various plays.
+              Since 2014, I've been involved with
+              <a href="http://www.acordealguion.com/" target="_blank"
+                >Acorde Al Guión</a
+              >, directing scenes, coordinating actors, translating, and working
+              as a stage technician and lighting crew for various plays.
             </p>
           </div>
         </div>
       </section>
       <section id="contact">
         <h2>Contact</h2>
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/ireneaunon/"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/ireneairyn"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
         <form
           action="https://formspree.io/f/irene@ireneaunion.com"
           method="POST"
         >
+          <img
+            src="/public/send-transparent.png"
+            alt="Send Icon"
+            class="send-icon"
+          />
           <input
             type="text"
             placeholder="Name*"
@@ -133,18 +161,20 @@
             class="form-input"
             rows="6"
           ></textarea>
-          <input
-            name="submit"
-            type="submit"
-            id="submit"
-            class="btn"
-            value="Send"
-          />
+          <div class="submit-container">
+            <input
+              name="submit"
+              type="submit"
+              id="submit"
+              class="btn"
+              value="Send"
+            />
+          </div>
         </form>
       </section>
     </main>
     <footer>
-      <p>Copyright © 2024 Irene A.</p>
+      <p>© MMXXIV. Irene A.</p>
     </footer>
   </body>
 </html>
