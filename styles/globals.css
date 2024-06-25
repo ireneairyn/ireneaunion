@@ -90,7 +90,7 @@ main {
 }
 
 #home .myNameIs {
-  font-size: 60px;
+  font-size: 58px;
   color: #2c3e50;
   text-align: left;
   font-weight: 400;
@@ -106,8 +106,6 @@ main {
   color: #e74c3c;
   width: 100%;
   text-align: right;
-  text-wrap: balance;
-  max-width: 70%;
   margin-left: auto;
 }
 
@@ -179,11 +177,16 @@ p {
   padding: 100px, 0;
 }
 
-#projects p,
 #other p,
 #contact p {
   font-size: 22px;
   font-weight: 300;
+}
+
+#projects p {
+  font-size: 22px;
+  font-weight: 400;
+  color: #2c3e50;
 }
 
 #other img {
@@ -285,9 +288,13 @@ p {
 
 footer {
   text-align: center;
-  padding: 15px;
-  background-color: #2c3e50;
-  color: #e74c3c;
+  padding: 20px;
+  background-color: #ee6c6a;
+  color: #2c3e50;
+}
+
+footer p {
+  margin: 0;
 }
 
 /* Media query for larger screens */
@@ -341,9 +348,12 @@ footer {
   #home .iDoThis {
     align-self: flex-end;
     font-size: 40px;
-    color: #e74c3c;
     text-align: right;
     margin-left: 400px;
+    width: 100%;
+    text-wrap: balance;
+    max-width: 70%;
+    margin-left: auto;
   }
 
   #projects h2,
@@ -409,9 +419,5 @@ footer {
 
   .social-link {
     font-size: 40px;
-  }
-
-  footer {
-    padding: 20px;
   }
 }
