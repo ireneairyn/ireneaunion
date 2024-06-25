@@ -108,17 +108,30 @@ main {
   width: 100%;
   text-align: right;
   margin-left: auto;
+  margin-bottom: 20px;
 }
 
 .laptop {
   width: 100%;
   position: absolute;
-  bottom: 40px;
+  bottom: 70px;
 }
 
 .laptop img {
   width: 180px;
   height: auto;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #e74c3c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project a:hover {
+  text-decoration: underline;
 }
 
 #projects,
@@ -137,11 +150,12 @@ main {
 .projects-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 30px;
+  row-gap: 30px;
 }
 
 .project {
   text-align: center;
+  position: relative;
 }
 
 .project img {
@@ -149,6 +163,7 @@ main {
   height: auto;
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 h3 {
@@ -199,6 +214,11 @@ p {
   font-size: 22px;
   font-weight: 400;
   color: #2c3e50;
+}
+
+#projects .description {
+  font-weight: 300;
+  font-size: 18px;
 }
 
 #other img {
@@ -366,11 +386,11 @@ footer p {
     align-self: flex-end;
     font-size: 40px;
     text-align: right;
-    margin-left: 400px;
     width: 100%;
     text-wrap: balance;
     max-width: 70%;
     margin-left: auto;
+    margin-bottom: 0;
   }
 
   #projects h2,
@@ -392,7 +412,9 @@ footer p {
 
   .projects-grid {
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 50px;
+    column-gap: 80px;
+    row-gap: 10px;
+    padding: 0 50px;
   }
 
   .project {
@@ -401,7 +423,6 @@ footer p {
 
   .project img {
     border: 4px solid transparent;
-    width: 80%;
     transition: all 0.3s ease;
   }
 
