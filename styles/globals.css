@@ -80,6 +80,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 #home .content {
@@ -107,6 +108,17 @@ main {
   width: 100%;
   text-align: right;
   margin-left: auto;
+}
+
+.laptop {
+  width: 100%;
+  position: absolute;
+  bottom: 40px;
+}
+
+.laptop img {
+  width: 180px;
+  height: auto;
 }
 
 #projects,
@@ -327,6 +339,10 @@ footer p {
     font-size: 26px;
     color: #2c3e50;
     text-decoration: underline;
+  }
+
+  .laptop {
+    display: none;
   }
 
   .name:hover {
