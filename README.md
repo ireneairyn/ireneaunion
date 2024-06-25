@@ -4,4 +4,4 @@ Welcome to my website. Find information about me and my projects. Get in touch, 
 
 ## Check it out 👀
 
-*  Click [here](https:ireneaunion.com) to visit my website! 
+*  Click [here](https://ireneaunion.com/) to visit my website! 
