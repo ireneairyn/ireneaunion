@@ -239,6 +239,7 @@ p {
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 18px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 #contact .form-input:focus {
